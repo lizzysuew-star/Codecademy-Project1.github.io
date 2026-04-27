@@ -12,9 +12,11 @@ h1 {
   font-size: 100px;
   font-weight: bold;
   color: khaki;
+  position: absolute;
+  z-index: 100;
 
 }
 
 .container {
-  background-image: url(image1.jpeg);
+  position: relative;
 }
